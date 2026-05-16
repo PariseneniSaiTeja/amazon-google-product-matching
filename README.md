@@ -14,7 +14,7 @@ across Amazon and Google catalogues using text similarity.
 - REST API built with FastAPI
 
 ## Files
-- `notebook.ipynb` — full pipeline
+- `Ggl_vs_Azm.ipynb` — full pipeline
 - `app.py` — FastAPI REST API
 
 ## How to Run
