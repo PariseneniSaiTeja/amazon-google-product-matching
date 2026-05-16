@@ -21,8 +21,13 @@ across Amazon and Google catalogues using text similarity.
 1. Install dependencies:
 pip install pandas numpy scikit-learn fastapi uvicorn
 
-2. Run the API:
+## Important Note
+The `model_data.pkl` file is not included in this repo.
+To generate it, run the notebook first and it will be 
+created automatically in your project folder.
+
+3. Run the API:
 uvicorn app:app --reload
 
-3. Open browser:
+4. Open browser:
 http://127.0.0.1:8000/docs
